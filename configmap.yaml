@@ -1,0 +1,7 @@
+# configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-k8s-config
+data:
+  GREETING_MESSAGE: "Kubernetes"
